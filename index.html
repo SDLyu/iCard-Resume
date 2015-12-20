@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+                <h3 class="title with-icon"><span class="fa fa-briefcase cat-title"></span>Work Experience</h3>
                 <ul class="timeline">
                     {% for work in site.author.workHistory %}
                         <li class="timeline-inverted">
@@ -15,14 +15,14 @@ layout: default
                             <div class="timeline-panel grid-block">
                                 <div class="timeline-heading">
                                     {% if work.company %}
-                                        <h4 class="timeline-title">{{ work.company }} </h4>
+                                        <h4 class="timeline-title">
+                                            <a href="{{work.link}}">{{ work.company }}</a>
+                                        </h4>
                                     {% endif %}
-                                    <p>
-                                        <small class="text-muted">
-                                            {% if work.title %}
-                                                {{ work.title }}
-                                            {% endif %}
-                                        </small>
+                                    <p class="text-muted">
+                                        {% if work.title %}
+                                            {{ work.title }}
+                                        {% endif %}
                                     </p>
                                     <p>
                                         <small class="text-muted">
@@ -39,6 +39,48 @@ layout: default
                                     {% if work.description %}
                                         <p>{{ work.description }}</p>
                                     {% endif %}
+                                    {% if work.techused %}
+                                        <p class="text-muted"> {{ work.techused }} </p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% if site.author.militaryLife %}
+                <h3 class="title with-icon"><span class="fa fa-shield cat-title"></span>Military Life</h3>
+                <ul class="timeline">
+                    {% for military in site.author.militaryLife %}
+                        <li class="timeline-inverted">
+                            {% if military.started %}
+                                <div class="timeline-badge info">{{ military.started }}</div>
+                            {% endif %}
+                            <div class="timeline-panel grid-block">
+                                <div class="timeline-heading">
+                                    {% if military.organization %}
+                                        <h4 class="timeline-title">
+                                            <a href="military.link">{{ military.organization }}</a>
+                                        </h4>
+                                    {% endif %}
+                                    <p>
+                                        <small class="text-muted">
+                                            {% if military.title %}
+                                                {{ military.title }}
+                                            {% endif %}
+                                        </small>
+                                    </p>
+                                    {% if military.duration %}
+                                        <p>
+                                            <small class="text-muted"><i class="fa fa-calendar"></i> {{ military.duration }}
+                                            </small>
+                                        </p>
+                                    {% endif %}
+                                </div>
+                                <div class="timeline-body">
+                                    {% if military.description %}
+                                        <p>{{ military.description }}</p>
+                                    {% endif %}
                                 </div>
                             </div>
                         </li>
@@ -46,7 +88,7 @@ layout: default
                 </ul>
             {% endif %}
             {% if site.author.educationHistory %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education</h3>
                 <ul class="timeline">
                     {% for education in site.author.educationHistory %}
                         <li class="timeline-inverted">
@@ -90,22 +132,27 @@ layout: default
             {% if site.author.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 <div class="grid-block">
-                    <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.author.programmingSkills %}
+                    {% for programmingType in site.author.programmingSkills %}
+                        {% if programmingType.name %}
+                        <h4>{{ programmingType.name }}</h4>
+                        {% endif %}
+                        <ul class="list-unstyled list-skills">
+                            {% for programmingSkill in programmingType.categories %}
                             <li>
                                 {% if programmingSkill.name %}
-                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
+                                <span class="caption-skill">{{ programmingSkill.name }}</span>
                                 {% endif %}
                                 {% if programmingSkill.percentage %}
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
-                                            <span>{{ programmingSkill.percentage }} </span>
-                                        </div>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
+                                        <span>{{ programmingSkill.percentage }} </span>
                                     </div>
+                                </div>
                                 {% endif %}
                             </li>
-                        {% endfor %}
-                    </ul>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
                 </div>
             {% endif %}
             {% if site.author.languages %}
@@ -125,11 +172,21 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-            <div class="deviter"></div>
-            <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
-            <div class="grid-block">
-                <iframe src="https://www.google.com/maps/embed/v1/place?q=auckland&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-            </div>
+            {% if site.author.habbits %}
+                <div class="deviter"></div>
+                <h3 class="title with-icon"><span class="fa fa-gamepad cat-title"></span> Habbits</h3>
+                <div class="grid-block">
+                    <ul class="list-unstyled">
+                        {% for habbit in site.author.habbits %}
+                            {% if habbit %}
+                                <li>
+                                     <span class="">{{ habbit.name }}</span>: <span class="">{{ habbit.info }}</span>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
         </div>
     </div>
 </div>

@@ -1,79 +1,130 @@
 # Site settings
-title: Dong Liang's CV
-description: ddbullfrog's CV
-favicon: /iCard-Resume/assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/iCard-Resume
-url: https://ddbullfrog.github.io/iCard-Resume
-rss_url: /iCard-Resume/pages/atom.xml
+title: Sheng-Da Lyu's CV
+description: Sheng-Da Lyu's CV
+favicon: /resume/assets/img/avatar.JPG
+baseurl: /resume
+url: https://www.lvh.me/
 
 # Build settings
 markdown: kramdown
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
-  weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /iCard-Resume/assets/img/avatar.JPG
+  name: Sheng-Da Lyu
+  title: Web Developer
+  address: Taipei, Taiwan
+  email: dragon90321@gmail.com
+  github: sdlyu
+  gavatar: /resume/assets/img/avatar.JPG
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: 媽咪愛 上恩資訊
+      link: https://www.mamilove.com.tw
+      location: Taipei, Taiwawn
+      title: Web Developer
+      techused: PHP Yii Larvel MySQL PostgreSQL Memcache DynamoDB Codeception | SASS/SCSS Bootstrap jQuery Backbone Gulp Webpack | Docker Vagrant
+      started: 2015
+      duration: (2015/1 - Present)
+      description:
+        建置 UPN 官方網站<br>
+        建置 ERP 及倉儲管理系統<br>
+        使用 AWS service(EC2/RDS/SQS/ElasticSearch) 建置媽咪愛網站<br>
+        導入 Docker 開發部署<br>
+        RESTful API 設計<br>
+        使用 Optimizly (A/B Test) 量化成果<br>
+        優化頁面載入速度(降低 50% 載入時間)<br>
+        支援多語系及多幣別
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Clotho 可蘿國際
+      link: http://clotho.com.tw
+      location: Taipei, Taiwan
+      title: Front-end Developer
+      techused: Shopify | JavaScript SASS/SCSS
+      started: 2014
+      duration: (2014/9 - 2015/3)
+      description:
+        提供網頁系統咨詢<br>
+        網站前端改版並上線<br>
+        7-11 物流串接<br>
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Ifalo 艾法諾科技
+      location: Taichung, Taiwan
+      title: Web Developer
+      techused: PHP Zendframework MySQL Memcache Redis MongoDB | jQuery | Scala Spark
+      started: 2013
+      duration: (2013/12 - 2014/12)
+      description:
+        建置線上影音觀看平台<br>
+        建置彩球即時下注系統<br>
+        重構會員及報表系統<br>
+        導入並建置 Spark 大數據分析系統<br>
+  militaryLife:
+    - military:
+      organization: 國軍人才招募中心
+      link: http://www.rdrc.gov.tw
+      location: Taipei, Taiwan
+      title: MIS
+      started: 2012
+      duration: (2012/10 - 2013/9)
+      description:
+        國軍線上報名系統及伺服器管理<br>
+        網路設備建置並升級 IPv6
   educationHistory:
     - education1:
-      organization: Northeastern University
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: 國立臺北大學
+      degree: 研究所
+      major: 資訊工程學系
+      started: 2010
+      duration: (2010 - 2012)
+      description:
+        研究方向－綠能、無線網路、感知網路、4G、IoT<br>
+        教育部教材 Green Cellular Networks 編撰<br>
   languages:
     - language1:
       name: Chinese
       proficiency: Native
     - language2:
       name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
+      proficiency: Conversant
   programmingSkills:
     - skill1:
-      name: HTML
-      percentage: 100%
+      name: Backend
+      categories:
+        - category1:
+          name: PHP
+          percentage: 80%
+        - category2:
+          name: Node.js
+          percentage: 70%
+        - category3:
+          name: Database
+          percentage: 70%
     - skill2:
-      name: Bootstrap
-      percentage: 90%
+      name: Frontend
+      categories:
+        - category1:
+          name: SASS/SCSS Bootstrap
+          percentage: 70%
+        - category2:
+          name: jQuery/Backbone
+          percentage: 80%
+        - category3:
+          name: ReactJS/Redux
+          percentage: 60%
+
     - skill3:
-      name: JavaScript
-      percentage: 80%
-    - skill4:
-      name: AngularJS
-      percentage: 80%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
+      name: App
+      categories:
+        - category1:
+          name: React Native
+          percentage: 60%
+  habbits:
+    - habbit1:
+      name: 閱讀
+      info: 喜歡接受新知，尤其是資訊相關領域
+    - habbit2:
+      name: 寫程式
+      info: 喜歡研究新語言、新工具
+    - habbit3:
+      name: 慢跑、運動
+      info: 喜歡流汗的感覺，而且幫助身體保持健康
