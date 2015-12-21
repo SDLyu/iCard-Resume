@@ -58,17 +58,6 @@ author:
         建置彩球即時下注系統<br>
         重構會員及報表系統<br>
         導入並建置 Spark 大數據分析系統<br>
-  militaryLife:
-    - military:
-      organization: 國軍人才招募中心
-      link: http://www.rdrc.gov.tw
-      location: Taipei, Taiwan
-      title: MIS
-      started: 2012
-      duration: (2012/10 - 2013/9)
-      description:
-        國軍線上報名系統及伺服器管理<br>
-        網路設備建置並升級 IPv6
   educationHistory:
     - education1:
       organization: 國立臺北大學
