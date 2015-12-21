@@ -74,7 +74,7 @@ author:
       proficiency: Native
     - language2:
       name: English
-      proficiency: Conversant
+      proficiency: Professional
   programmingSkills:
     - skill1:
       name: Backend
@@ -100,20 +100,9 @@ author:
         - category3:
           name: ReactJS/Redux
           percentage: 60%
-
     - skill3:
       name: App
       categories:
         - category1:
           name: React Native
           percentage: 60%
-  habbits:
-    - habbit1:
-      name: 閱讀
-      info: 喜歡接受新知，尤其是資訊相關領域
-    - habbit2:
-      name: 寫程式
-      info: 喜歡研究新語言、新工具
-    - habbit3:
-      name: 慢跑、運動
-      info: 喜歡流汗的感覺，而且幫助身體保持健康
