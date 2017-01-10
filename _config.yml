@@ -27,7 +27,7 @@ author:
       description:
         使用 React/Redux 建置未來事件交易前端<br>
         使用 SignalR 做即時資料傳輸互動<br>
-        使用 Karma + Enzyme 做 React/Redux 單元測試及集成測試<br>
+        使用 Karma + Enzyme 做 React/Redux 單元測試及集成測試，並保持 80% 的測試覆蓋率<br>
         使用 Cocos Creator 建置 HTML5 遊戲頁面<br>
         實現眯牌動作及效果<br>
         帶領團隊使用 Cocos Creator 從零到能完整開發功能<br>
