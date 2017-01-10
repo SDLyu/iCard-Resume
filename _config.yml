@@ -18,22 +18,35 @@ author:
   gavatar: /resume/assets/img/avatar.JPG
   workHistory:
     - work1:
+      company: 磊德資訊
+      location: Taipei, Taiwawn
+      title: Front-End/HTML5 Game Developer
+      techused: React/Redux | Cocos Creator | FRP/RxJS | .net SignalR
+      started: 2016
+      duration: (2016/5 - Present)
+      description:
+        建置未來事件交易前端<br>
+        使用 SignalR 做即時資料傳輸互動<br>
+        使用 Karma + Enzyme 做 React/Redux 單元測試及集成測試<br>
+        使用 Cocos Creator 建置 HTML5 遊戲頁面<br>
+        實現眯牌動作及效果
+    - work2:
       company: 媽咪愛 上恩資訊
       link: https://www.mamilove.com.tw
       location: Taipei, Taiwawn
       title: Web Developer
-      techused: PHP Yii Larvel MySQL PostgreSQL Memcache DynamoDB Codeception | SASS/SCSS Bootstrap jQuery Backbone Gulp Webpack | Docker Vagrant
+      techused: PHP Yii Larvel MySQL PostgreSQL Memcache DynamoDB Codeception | SASS/SCSS Bootstrap jQuery Backbone Gulp Webpack | Docker Compose/Machine/Swarm Vagrant
       started: 2015
-      duration: (2015/1 - Present)
+      duration: (2015/1 - 2016/5)
       description:
         建置 UPN 官方網站<br>
         建置 ERP 及倉儲管理系統<br>
         使用 AWS service(EC2/RDS/SQS/ElasticSearch) 建置媽咪愛網站<br>
-        導入 Docker 開發部署<br>
         RESTful API 設計<br>
         使用 Optimizly (A/B Test) 量化成果<br>
         優化頁面載入速度(降低 50% 載入時間)<br>
-        支援多語系及多幣別
+        支援多語系及多幣別<br>
+        建置團隊 Docker 開發及測試環境
     - work2:
       company: Clotho 可蘿國際
       link: http://clotho.com.tw
@@ -46,7 +59,7 @@ author:
         提供網頁系統咨詢<br>
         網站前端改版並上線<br>
         7-11 物流串接<br>
-    - work3:
+    - work4:
       company: Ifalo 艾法諾科技
       location: Taichung, Taiwan
       title: Web Developer
@@ -86,23 +99,44 @@ author:
           name: Node.js
           percentage: 70%
         - category3:
-          name: Database
-          percentage: 70%
+          name: SQL/MySQL/MariaDB
+          percentage: 60%
+        - category3:
+          name: NoSQL/DynamoDB/MongoDB/Redis/Memcache
+          percentage: 50%
+        - category4:
+          name: Python/Crawler
+          percentage: 30%
     - skill2:
       name: Frontend
       categories:
         - category1:
-          name: SASS/SCSS Bootstrap
-          percentage: 70%
+          name: Cocos Creator/HTML5
+          percentage: 80%
         - category2:
-          name: jQuery/Backbone
+          name: jQuery/BootStrap
           percentage: 80%
         - category3:
           name: ReactJS/Redux
+          percentage: 70%
+        - category4:
+          name: SASS/SCSS
+          percentage: 70%
+        - category5:
+          name: Build Tool/Gulp/Webpack
           percentage: 60%
     - skill3:
+      name: Operation
+      categories:
+        - category1:
+          name: AWS/EC2/S3/RDS/SQS
+          percentage: 60%
+        - category2:
+          name: Docker/Compose/Machine/Swarm
+          percentage: 50%
+    - skill4:
       name: App
       categories:
         - category1:
           name: React Native
-          percentage: 60%
+          percentage: 50%
