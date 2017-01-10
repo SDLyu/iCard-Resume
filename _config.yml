@@ -20,18 +20,20 @@ author:
     - work1:
       company: 磊德資訊
       location: Taipei, Taiwawn
-      title: Front-End/HTML5 Game Developer
+      title: Front-End/HTML5 Game Developer | HTML5 部門課長
       techused: React/Redux | Cocos Creator | FRP/RxJS | .net SignalR
       started: 2016
       duration: (2016/5 - Present)
       description:
-        建置未來事件交易前端<br>
+        使用 React/Redux 建置未來事件交易前端<br>
         使用 SignalR 做即時資料傳輸互動<br>
         使用 Karma + Enzyme 做 React/Redux 單元測試及集成測試<br>
         使用 Cocos Creator 建置 HTML5 遊戲頁面<br>
-        實現眯牌動作及效果
+        實現眯牌動作及效果<br>
+        帶領團隊使用 Cocos Creator 從零到能完整開發功能<br>
+        提交並驗證 issue 給 Cocos Creator 團隊
     - work2:
-      company: 媽咪愛 上恩資訊
+      company: 上恩資訊-媽咪愛 | 資深網頁工程師
       link: https://www.mamilove.com.tw
       location: Taipei, Taiwawn
       title: Web Developer
@@ -47,7 +49,7 @@ author:
         優化頁面載入速度(降低 50% 載入時間)<br>
         支援多語系及多幣別<br>
         建置團隊 Docker 開發及測試環境
-    - work2:
+    - work3:
       company: Clotho 可蘿國際
       link: http://clotho.com.tw
       location: Taipei, Taiwan
@@ -62,7 +64,7 @@ author:
     - work4:
       company: Ifalo 艾法諾科技
       location: Taichung, Taiwan
-      title: Web Developer
+      title: Web Developer | 網頁工程師
       techused: PHP Zendframework MySQL Memcache Redis MongoDB | jQuery | Scala Spark
       started: 2013
       duration: (2013/12 - 2014/12)
