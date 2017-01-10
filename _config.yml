@@ -33,10 +33,10 @@ author:
         帶領團隊使用 Cocos Creator 從零到能完整開發功能<br>
         提交並驗證 issue 給 Cocos Creator 團隊
     - work2:
-      company: 上恩資訊-媽咪愛 | 資深網頁工程師
+      company: 上恩資訊-媽咪愛
       link: https://www.mamilove.com.tw
       location: Taipei, Taiwawn
-      title: Web Developer
+      title: Web Developer | 資深網頁工程師
       techused: PHP Yii Larvel MySQL PostgreSQL Memcache DynamoDB Codeception | SASS/SCSS Bootstrap jQuery Backbone Gulp Webpack | Docker Compose/Machine/Swarm Vagrant
       started: 2015
       duration: (2015/1 - 2016/5)
@@ -95,11 +95,11 @@ author:
       name: Backend
       categories:
         - category1:
-          name: PHP
+          name: PHP/Laravel/Yii2
           percentage: 80%
         - category2:
-          name: Node.js
-          percentage: 70%
+          name: Node.js/Express
+          percentage: 60%
         - category3:
           name: SQL/MySQL/MariaDB
           percentage: 60%
