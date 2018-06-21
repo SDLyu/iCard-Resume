@@ -18,12 +18,37 @@ author:
   gavatar: /resume/assets/img/avatar.JPG
   workHistory:
     - work1:
+      company: 慧科訊業
+      location: Taipei, Taiwawn
+      title: Senior Software Developer | 資深工程師
+      techused: Python/Scrapy | Docker | Kubernetes | DevOps
+      started: 2018
+      duration: (2018/1 - Present)
+      description:
+        使用 Python + Scrapy 實做爬蟲抓取網頁媒體<br>
+        規劃分布式爬蟲架構<br>
+        研究並規劃 Kubernetes 架構及系統整合<br>
+        使用 Kubernetes 管理多個 Cluster (每個 Cluster 最多 20 台機器)<br>
+        容器化所有應用，並與 Kubernetes 整合<br>
+        每日數百萬的大數據分析
+    - work2:
+      company: 美佳數位
+      location: Taipei, Taiwawn
+      title: Senior Software Developer | 資深工程師
+      techused: PHP/Laravel | JavaScript/Vue | CI/Jenkins
+      started: 2016
+      duration: (2016/5 - 2017/2)
+      description:
+        從零規劃新產品系統架構(包含前端、管理端)<br>
+        導入自動化測試(單元測試、集成測試)<br>
+        導入 CI/CD 等自動化流程，優化軟體開發流程<br>
+    - work3:
       company: 磊德資訊
       location: Taipei, Taiwawn
       title: Front-End/HTML5 Game Developer | HTML5 部門課長
-      techused: React/Redux | Cocos Creator | FRP/RxJS | .net SignalR
+      techused: React/Redux | Cocos Creator | FRP/RxJS | .net/SignalR
       started: 2016
-      duration: (2016/5 - Present)
+      duration: (2016/5 - 2017/2)
       description:
         使用 React/Redux 建置未來事件交易前端<br>
         使用 SignalR 做即時資料傳輸互動<br>
@@ -32,7 +57,7 @@ author:
         實現眯牌動作及效果<br>
         帶領團隊使用 Cocos Creator 從零到能完整開發功能<br>
         提交並驗證 issue 給 Cocos Creator 團隊
-    - work2:
+    - work4:
       company: 上恩資訊-媽咪愛
       link: https://www.mamilove.com.tw
       location: Taipei, Taiwawn
@@ -49,7 +74,7 @@ author:
         優化頁面載入速度(降低 50% 載入時間)<br>
         支援多語系及多幣別<br>
         建置團隊 Docker 開發及測試環境
-    - work3:
+    - work5:
       company: Clotho 可蘿國際
       link: http://clotho.com.tw
       location: Taipei, Taiwan
@@ -61,7 +86,7 @@ author:
         提供網頁系統咨詢<br>
         網站前端改版並上線<br>
         7-11 物流串接<br>
-    - work4:
+    - work6:
       company: Ifalo 艾法諾科技
       location: Taichung, Taiwan
       title: Web Developer | 網頁工程師
@@ -136,6 +161,12 @@ author:
         - category2:
           name: Docker/Compose/Machine/Swarm
           percentage: 50%
+        - category3:
+          name: Kubernetes
+          percentage: 50%
+        - category4:
+          name: Jenkins/DroneCI
+          percentage: 40%
     - skill4:
       name: App
       categories:
