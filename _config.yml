@@ -42,6 +42,7 @@ author:
         從零規劃新產品系統架構(包含前端、管理端)<br>
         導入自動化測試(單元測試、集成測試)<br>
         導入 CI/CD 等自動化流程，優化軟體開發流程<br>
+        導入 DDD 設計及開發流程
     - work3:
       company: 磊德資訊
       location: Taipei, Taiwawn
@@ -130,16 +131,16 @@ author:
           percentage: 60%
         - category3:
           name: NoSQL/DynamoDB/MongoDB/Redis/Memcache
-          percentage: 50%
+          percentage: 60%
         - category4:
-          name: Python/Crawler
-          percentage: 30%
+          name: Python/Scrapy
+          percentage: 40%
     - skill2:
       name: Frontend
       categories:
         - category1:
           name: Cocos Creator/HTML5
-          percentage: 80%
+          percentage: 70%
         - category2:
           name: jQuery/BootStrap
           percentage: 80%
@@ -160,10 +161,10 @@ author:
           percentage: 60%
         - category2:
           name: Docker/Compose/Machine/Swarm
-          percentage: 50%
+          percentage: 70%
         - category3:
           name: Kubernetes
-          percentage: 50%
+          percentage: 60%
         - category4:
           name: Jenkins/DroneCI
           percentage: 40%
