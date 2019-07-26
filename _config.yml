@@ -17,20 +17,34 @@ author:
   github: sdlyu
   gavatar: /resume/assets/img/avatar.JPG
   workHistory:
+    - work0:
+      company: 光晨科技
+      location: Taipei, Taiwawn
+      title: Tech Leader | 技術主管
+      techused: PHP7/Laravel | DDD | Jenkins/Ansible | EC2/S3/CloudFront
+      started: 2019
+      duration: (2019/4 - Present)
+      description:
+        規劃新產品系統架構(包含前端、管理端、API)<br>
+        自動化多環境部署
+        DDD 設計及開發
+        多團隊構通及需求協調
     - work1:
       company: 慧科訊業
       location: Taipei, Taiwawn
       title: Senior Software Developer | 資深工程師
-      techused: Python/Scrapy | Docker | Kubernetes | DevOps
+      techused: Python/Scrapy | Docker | Kafka | Kubernetes | DevOps
       started: 2018
-      duration: (2018/1 - Present)
+      duration: (2018/1 - 2019/3)
       description:
         使用 Python + Scrapy 實做爬蟲抓取網頁媒體<br>
         規劃分布式爬蟲架構<br>
+        Kafka 集群建置及導入<br>
         研究並規劃 Kubernetes 架構及系統整合<br>
         使用 Kubernetes 管理多個 Cluster (每個 Cluster 最多 20 台機器)<br>
         容器化所有應用，並與 Kubernetes 整合<br>
-        每日數百萬的大數據分析
+        每日數百萬的大數據分析<br>
+        Spark 大數據計算統計文章情感
     - work2:
       company: 美佳數位
       location: Taipei, Taiwawn
@@ -127,14 +141,14 @@ author:
           name: Node.js/Express
           percentage: 60%
         - category3:
-          name: SQL/MySQL/MariaDB
-          percentage: 60%
+          name: RDBMS:MySQL/MariaDB
+          percentage: 80%
         - category3:
-          name: NoSQL/DynamoDB/MongoDB/Redis/Memcache
-          percentage: 60%
+          name: NoSQL:DynamoDB/MongoDB/Redis/Memcache
+          percentage: 70%
         - category4:
           name: Python/Scrapy
-          percentage: 40%
+          percentage: 50%
     - skill2:
       name: Frontend
       categories:
@@ -151,13 +165,13 @@ author:
           name: SASS/SCSS
           percentage: 70%
         - category5:
-          name: Build Tool/Gulp/Webpack
+          name: Build Tool:Gulp/Webpack
           percentage: 60%
     - skill3:
       name: Operation
       categories:
         - category1:
-          name: AWS/EC2/S3/RDS/SQS
+          name: AWS:EC2/S3/RDS/SQS
           percentage: 60%
         - category2:
           name: Docker/Compose/Machine/Swarm
@@ -166,11 +180,11 @@ author:
           name: Kubernetes
           percentage: 60%
         - category4:
-          name: Jenkins/DroneCI
+          name: Jenkins/Ansible
           percentage: 40%
     - skill4:
       name: App
       categories:
         - category1:
           name: React Native
-          percentage: 50%
+          percentage: 30%
