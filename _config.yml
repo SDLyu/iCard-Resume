@@ -26,9 +26,9 @@ author:
       duration: (2019/4 - Present)
       description:
         規劃新產品系統架構(包含前端、管理端、API)<br>
-        自動化多環境部署
-        DDD 設計及開發
-        多團隊構通及需求協調
+        自動化多環境部署<br>
+        DDD 設計及開發<br>
+        多團隊構通及需求協調<br>
     - work1:
       company: 慧科訊業
       location: Taipei, Taiwawn
@@ -43,7 +43,7 @@ author:
         研究並規劃 Kubernetes 架構及系統整合<br>
         使用 Kubernetes 管理多個 Cluster (每個 Cluster 最多 20 台機器)<br>
         容器化所有應用，並與 Kubernetes 整合<br>
-        每日數百萬的大數據分析<br>
+        每日數千萬的大數據分析<br>
         Spark 大數據計算統計文章情感
     - work2:
       company: 美佳數位
