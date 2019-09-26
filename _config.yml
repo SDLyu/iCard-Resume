@@ -21,14 +21,15 @@ author:
       company: 光晨科技
       location: Taipei, Taiwawn
       title: Tech Leader | 技術主管
-      techused: PHP7/Laravel | DDD | Jenkins/Ansible | EC2/S3/CloudFront
+      techused: PHP7/Laravel MySQL/Redis/Greenplum | DDD | Jenkins/Ansible | EC2/S3/CloudFront/ELB/RDS/... | ELK
       started: 2019
       duration: (2019/4 - Present)
       description:
-        規劃新產品系統架構(包含前端、管理端、API)<br>
+        規劃新產品系統架構(包含前端、後台管理系統、API)<br>
         自動化多環境部署<br>
         DDD 設計及開發<br>
-        多團隊構通及需求協調<br>
+        跨團隊構通及需求協調<br>
+        節省60%以上雲端主機費用
     - work1:
       company: 慧科訊業
       location: Taipei, Taiwawn
@@ -141,10 +142,10 @@ author:
           name: Node.js/Express
           percentage: 60%
         - category3:
-          name: RDBMS:MySQL/MariaDB
+          name: RDBMS:MySQL/MariaDB/Greenplum
           percentage: 80%
         - category3:
-          name: NoSQL:DynamoDB/MongoDB/Redis/Memcache
+          name: NoSQL:DynamoDB/MongoDB/Redis/Elasticsearch
           percentage: 70%
         - category4:
           name: Python/Scrapy
@@ -171,8 +172,8 @@ author:
       name: Operation
       categories:
         - category1:
-          name: AWS:EC2/S3/RDS/SQS
-          percentage: 60%
+          name: AWS:EC2/S3/RDS/ELB/SQS/Cloudfront/ECR/Lambda
+          percentage: 70%
         - category2:
           name: Docker/Compose/Machine/Swarm
           percentage: 70%
