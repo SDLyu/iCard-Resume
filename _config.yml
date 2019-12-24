@@ -32,6 +32,7 @@ author:
         節省60%以上雲端主機費用<br>
         系統監控、自動擴容環境建置<br>
         前端資源加載優化<br>
+        導入 ELK 工具做數據分析及檢索
     - work1:
       company: 慧科訊業
       location: Taipei, Taiwawn
