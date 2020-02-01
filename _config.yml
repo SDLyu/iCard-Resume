@@ -21,18 +21,20 @@ author:
       company: 光晨科技
       location: Taipei, Taiwawn
       title: Tech Leader | 技術主管
-      techused: PHP7/Laravel MySQL/Redis/Greenplum | DDD | Jenkins/Ansible | EC2/S3/CloudFront/ELB/RDS/... | ELK
+      techused: PHP7/Laravel MySQL/Redis | DDD | Jenkins/Ansible | EC2/S3/CloudFront/ELB/RDS/... | ELK
       started: 2019
       duration: (2019/4 - Present)
       description:
         規劃新產品系統架構(包含前端、後台管理系統、API)<br>
         自動化多環境部署<br>
-        DDD 設計及開發<br>
+        DDD 分析需求、建模及開發<br>
         跨團隊構通及需求協調<br>
         節省60%以上雲端主機費用<br>
         系統監控、自動擴容環境建置<br>
-        前端資源加載優化<br>
-        導入 ELK 工具做數據分析及檢索
+        前端資源加載優化及斷線重連<br>
+        導入 ELK 工具做數據分析及檢索<br>
+        分布式遊戲伺服器建置<br>
+        客戶端使用 MQTT over WSS 傳輸通訊
     - work1:
       company: 慧科訊業
       location: Taipei, Taiwawn
@@ -94,18 +96,6 @@ author:
         支援多語系及多幣別<br>
         建置團隊 Docker 開發及測試環境
     - work5:
-      company: Clotho 可蘿國際
-      link: http://clotho.com.tw
-      location: Taipei, Taiwan
-      title: Front-end Developer
-      techused: Shopify | JavaScript SASS/SCSS
-      started: 2014
-      duration: (2014/9 - 2015/3)
-      description:
-        提供網頁系統咨詢<br>
-        網站前端改版並上線<br>
-        7-11 物流串接<br>
-    - work6:
       company: Ifalo 艾法諾科技
       location: Taichung, Taiwan
       title: Web Developer | 網頁工程師
